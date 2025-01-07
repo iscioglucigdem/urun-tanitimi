@@ -3,27 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ürün Tanıtımı</title>
+    <title>Zırk Kasabı - Zırktan Gelen Lezzet</title>
     <style>
+        /* Genel Stil */
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 20px;
-        }
-        h1 {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
             color: #333;
+            line-height: 1.6;
+        }
+
+        /* Başlık ve slogan */
+        header {
+            background-color: #8a3324;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-style: italic;
+        }
+
+        /* Ürün Bölümü */
+        .product-section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .product-section img {
+            max-width: 400px;
+            width: 80%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-section h2 {
+            margin-top: 20px;
+            font-size: 2em;
+            color: #8a3324;
+        }
+
+        .product-section p {
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+
+        /* İçerik Listesi */
+        .ingredients {
+            margin: 30px auto;
+            max-width: 600px;
+            text-align: left;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .ingredients h3 {
+            margin-bottom: 15px;
+            color: #8a3324;
+            font-size: 1.5em;
+        }
+
+        .ingredients ul {
+            list-style-type: square;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .ingredients li {
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
-    <h1>Ürün Adı</h1>
-    <p>Ürün hakkında kısa bilgi buraya gelecek.</p>
-    <img src="sucuk2a.jpg" alt="Ürün Resmi">
-    <p>Ürün hakkında daha fazla bilgi için mağazamızı ziyaret edin!</p>
+
+    <!-- Başlık ve Slogan -->
+    <header>
+        <h1>Zırk Kasabı</h1>
+        <p>"Zırktan gelen lezzet"</p>
+    </header>
+
+    <!-- Ürün Tanıtım Bölümü -->
+    <section class="product-section">
+        <img src="sucuk2a.jpg" alt="Zırk Kasabı Sucuk">
+        <h2>Zırk Kasabı'nın Özel Sucuğu</h2>
+        <p>Doğal baharatlar ve en taze etlerle hazırlanan eşsiz bir lezzet. Aileniz ve sevdiklerinizle paylaşabileceğiniz sağlıklı ve lezzetli bir tercih!</p>
+    </section>
+
+    <!-- İçerik Listesi -->
+    <section class="ingredients">
+        <h3>İçindekiler:</h3>
+        <ul>
+            <li>%100 Dana Eti</li>
+            <li>Doğal Baharat Karışımı</li>
+            <li>Sarımsak</li>
+            <li>Tuz</li>
+            <li>Hiçbir koruyucu katkı maddesi içermez!</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Zırk Kasabı. Tüm hakları saklıdır.</p>
+    </footer>
+
 </body>
 </html>
